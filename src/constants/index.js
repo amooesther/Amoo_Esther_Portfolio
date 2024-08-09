@@ -33,17 +33,19 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A Frozen food e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "Firebase"],
-  },
+  image: project1,
+  description:
+    "A Frozen food e-commerce website with features like product listing, shopping cart, and user authentication.",
+  technologies: ["HTML", "CSS", "React", "Node.js", "Firebase"],
+  link: "https://kaydas-amooesther2503gmailcoms-projects.vercel.app/"
+},
   {
     title: "Task Management App",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "JavaScript"],
+     link: "https://glowing-frangollo-c6e350.netlify.app/"
   },
   {
     title: "A Quiz App",
@@ -51,6 +53,7 @@ export const PROJECTS = [
     description:
       "A fun quiz app to test your knowledge, challenge friends, and track your progress across tech topics.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    link: "https://splendorous-lebkuchen-43bb0e.netlify.app/"
   }
 ];
 
