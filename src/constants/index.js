@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/project1.jpg";
 import project2 from "../assets/projects/project2.png";
+import project3 from "../assets/projects/project3.png";
 
 
 export const HERO_CONTENT = ` I am a Frontend software developer building solutions that meet market needs and drive business growth + user satisfaction.
@@ -17,7 +18,7 @@ export const EXPERIENCES = [
     role: "Frontend Developer",
     company: "Intern Pulse",
     description: `Developed and maintained responsive web pages using React.js, collaborating with designers and backend developers to implement engaging and user-friendly interfaces. Integrated backend services and APIs to facilitate real-time, dynamic data displays, enhancing user experience. Leveraged Git for version control, utilizing branching, merging, and pull requests to streamline team collaboration. Additionally, contributed to a reusable component library to ensure design consistency and development efficiency across projects.`,
-    technologies: ["HTML", "CSS", "React Js", "JavaScript"]
+    technologies: ["HTML", "CSS", "React Js", "JavaScript", "Typescript", "Tailwind"]
   },
   {
     year: "May 2024 - Oct. 2024",
@@ -31,20 +32,28 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Alexa Physiotherapy and Rehabilitation Clinic",
+    image: project3,
+    description:
+      "A modern and responsive website designed to showcase Alexa Physiotherapy and Rehabilitation Clinic's services. The project includes:A user-friendly interface for booking appointments and exploring clinic offerings, A dynamic blog/news section to share health tips and clinic updates, Integrated maps for easy location access in Akure and Lagos and Fully optimized for performance, accessibility, and seamless navigation across devices.",
+    technologies: ["Tailwind", "React js"],
+     link: "https://alexaphysiorehab.com/"
+  },
+  {
     title: "Cypto Currency Tracker Dashboard",
     image: project1,
     description:
       "A cryptocurrency dashboard application for tracking real-time crypto data, with features such as portfolio tracking, live price updates, and performance monitoring.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["Tailwind", "React js"],
      link: "https://crypto-tracker-dashboard-esther-amoo.vercel.app/"
   },
   {
-    title: "E-Commerce Website",
+    title: "Health Tracker Dashboard",
   image: project2,
   description:
-    "A Frozen food e-commerce website with features like product listing, shopping cart, and user authentication.",
-  technologies: ["HTML", "CSS", "React", "Node.js", "Firebase"],
-  link: "https://kaydas-amooesther2503gmailcoms-projects.vercel.app/"
+    "A responsive web application built with React and Chakra UI that visualizes health metrics like heart rate, steps, calories, and nutrition using interactive charts from Chart.js. Features include progress tracking, activity overviews, and personalized diet recommendations.",
+  technologies: ["React js", "Chakra UI", "Chart.js"],
+  link: "https://health-tracker-dashboard-esther-amoo.vercel.app/"
 }
 
 ];
