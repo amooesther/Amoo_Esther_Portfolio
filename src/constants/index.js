@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project1.jpg";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
+import project4 from "../assets/projects/project4.png";
 
 
 export const HERO_CONTENT = ` I am a Frontend software developer building solutions that meet market needs and drive business growth + user satisfaction.
@@ -31,6 +32,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Lauris Sport Massage Therapy ",
+    image: project4,
+    description:
+      "The project aimed to enhance the online presence of Lauris Sport Massage Therapy while offering clients a user-friendly platform to explore services, book appointments, and learn more about the clinic. The focus was on creating a visually appealing, highly functional, and responsive application that aligns with the clinic's branding and client needs",
+    technologies: ["Tailwind", "React js"],
+     link: "https://laurissportmassagetherapy.com/"
+  },
   {
     title: "Alexa Physiotherapy and Rehabilitation Clinic",
     image: project3,
