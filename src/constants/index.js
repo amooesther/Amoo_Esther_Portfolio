@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project1.jpg";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
 import project4 from "../assets/projects/project4.png";
+import project5 from "../assets/projects/project5.png";
 
 
 export const HERO_CONTENT = ` I am a Frontend software developer building solutions that meet market needs and drive business growth + user satisfaction.
@@ -15,11 +16,18 @@ I thrive in collaborative environments where teamwork and communication are key 
 
 export const EXPERIENCES = [
   {
-    year: "Oct. 2024 - present",
+    year: "Dec. 2024 - present",
+    role: "Frontend Developer",
+    company: "Renergy Hub",
+    description: `As a Frontend Developer, I collaborated with a team of backend developers, UI/UX designers, and product managers to build high-quality, user-centric web applications. I developed and maintained interactive, responsive interfaces using React.js, ensuring optimal performance and seamless user experiences across devices. Partnering with designers, I translated wireframes and prototypes into fully functional, visually consistent web pages. I also integrated backend services and APIs, working alongside backend developers to ensure smooth data flow. Additionally, I collaborated with product managers to align development with project goals and business objectives, ensured cross-browser compatibility and accessibility, and used Git for version control while following Agile methodologies for efficient feature delivery`,
+    technologies: ["HTML", "CSS", "React Js", "Next Js", "JavaScript", "Typescript", "Tailwind"]
+  },
+  {
+    year: "Oct. 2024 - Dec. 2024",
     role: "Frontend Developer",
     company: "Intern Pulse",
     description: `Developed and maintained responsive web pages using React.js, collaborating with designers and backend developers to implement engaging and user-friendly interfaces. Integrated backend services and APIs to facilitate real-time, dynamic data displays, enhancing user experience. Leveraged Git for version control, utilizing branching, merging, and pull requests to streamline team collaboration. Additionally, contributed to a reusable component library to ensure design consistency and development efficiency across projects.`,
-    technologies: ["HTML", "CSS", "React Js", "JavaScript", "Typescript", "Tailwind"]
+    technologies: ["HTML", "CSS", "React Js", "Next Js", "JavaScript", "Typescript", "Tailwind"]
   },
   {
     year: "May 2024 - Oct. 2024",
@@ -32,6 +40,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Renergy Hub: Revolutionizing Renewable Energy Solutions 🌍⚡ ",
+    image: project5,
+    description:
+      "Renergy Hub is an eplatform -commerce connecting vendors of solar panels, inverters, and eco-friendly products with environmentally conscious consumers. 🌱💡.As part of the team, I helped create a user-friendly interface, a secure backend, and intuitive designs to make renewable energy solutions more accessible.This project promotes sustainability, empowering individuals and businesses to reduce their carbon footprint 🌿.",
+    technologies: ["Tailwind", "React js", "Next js", "Typescript", "shadcn/UI"],
+     link: "https://www.renergyhub.com.ng/"
+  },
   {
     title: "Lauris Sport Massage Therapy ",
     image: project4,
@@ -68,7 +84,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "No 4 Ado street opposite Solton Hotel, Ijapo estate Akure Ondo State, Nigeria ",
+  address: "Akure, Ondo state, Nigeria",
   phoneNo: "+234 803 090 5783 ",
   email: "amooesther2503@gmail.com",
 };

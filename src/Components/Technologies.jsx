@@ -1,5 +1,5 @@
 import { RiReactjsLine } from 'react-icons/ri';
-import { SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiNodedotjs, SiFirebase } from 'react-icons/si';
+import { SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiNodedotjs, SiFirebase, SiNextdotjs } from 'react-icons/si';
 import { motion } from 'framer-motion';
 
 const iconVariants = (duration) => ({
@@ -83,6 +83,14 @@ const Technologies = () => {
           className='rounded-2xl border-4 border-neutral-300 p-4 text-cyan-400'
         >
           <RiReactjsLine size={50} />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3)}
+          initial='initial'
+          animate='animate'
+          className='rounded-2xl border-4 border-neutral-300 p-4 text-black'
+        >
+          <SiNextdotjs size={50} />
         </motion.div>
       </motion.div>
     </div>
