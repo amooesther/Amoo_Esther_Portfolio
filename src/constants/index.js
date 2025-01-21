@@ -62,7 +62,7 @@ export const PROJECTS = [
     description:
       "A modern and responsive website designed to showcase Alexa Physiotherapy and Rehabilitation Clinic's services. The project includes:A user-friendly interface for booking appointments and exploring clinic offerings, A dynamic blog/news section to share health tips and clinic updates, Integrated maps for easy location access in Akure and Lagos and Fully optimized for performance, accessibility, and seamless navigation across devices.",
     technologies: ["Tailwind", "React js"],
-     link: "https://alexaphysiorehab.com/"
+     link: "https://www.alexaphysiotherapy.com/"
   },
   {
     title: "Cypto Currency Tracker Dashboard",
