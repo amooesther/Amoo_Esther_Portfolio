@@ -15,6 +15,13 @@ During my career, I have successfully contributed to various projects, focusing 
 I thrive in collaborative environments where teamwork and communication are key to solving complex problems and delivering high-quality solutions. I am committed to staying updated with the latest industry trends and best practices, which allows me to adapt to new challenges effectively.`;
 
 export const EXPERIENCES = [
+  {
+    year: "Feb. 2025 - Present",
+    role: "Frontend Developer",
+    company: "Afribreath ltd.",
+    description: `Developed and maintained responsive web pages using React.js, collaborating with designers and back-end developers to implement user interfaces. Connected web pages to backend services and APIs to fetch and display dynamic data. Utilized Git for source code management, including branching, merging, and pull requests to facilitate team collaboration. Additionally, created and maintained a library of reusable components to ensure consistency and efficiency across the application.`,
+    technologies: ["Javascript", "React.js", "Tailwind css", "HTML", "wordpress"],
+  },
   
   {
     year: "Oct. 2024 - Feb. 2025",
@@ -23,13 +30,7 @@ export const EXPERIENCES = [
     description: `Developed and maintained responsive web pages using React.js, collaborating with designers and backend developers to implement engaging and user-friendly interfaces. Integrated backend services and APIs to facilitate real-time, dynamic data displays, enhancing user experience. Leveraged Git for version control, utilizing branching, merging, and pull requests to streamline team collaboration. Additionally, contributed to a reusable component library to ensure design consistency and development efficiency across projects.`,
     technologies: ["HTML", "CSS", "React Js", "Next Js", "JavaScript", "Typescript", "Tailwind"]
   },
-  {
-    year: "Feb. 2025 - Present",
-    role: "Frontend Developer",
-    company: "Afribreath ltd.",
-    description: `Developed and maintained responsive web pages using React.js, collaborating with designers and back-end developers to implement user interfaces. Connected web pages to backend services and APIs to fetch and display dynamic data. Utilized Git for source code management, including branching, merging, and pull requests to facilitate team collaboration. Additionally, created and maintained a library of reusable components to ensure consistency and efficiency across the application.`,
-    technologies: ["Javascript", "React.js", "Tailwind css", "HTML", "wordpress"],
-  }
+
   
 ];
 
